@@ -22,7 +22,7 @@ Install the dependencies and start the app.
 ```sh
 cd CoffeKloia\Server
 npm i
-node server
+npm start
 ```
 ```sh
 cd CoffeKloia\client
