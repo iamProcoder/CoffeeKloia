@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'exo-bold';
+  src: local('exo-bold'), url(../fonts/exo-bold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'roboto-regular';
+  src: local('roboto-regular'), url(../fonts/roboto-regular.woff2) format('woff2');
+}
+
+body {
+  margin: 0;
+  font-family: 'roboto-regular';
+  background-color: rgb(245, 245, 245);
+}
+
+
+.App {
+  text-align: center;
+}

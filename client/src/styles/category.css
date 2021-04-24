@@ -1,0 +1,15 @@
+ul > li {
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+ul > li:hover {
+    color: #2270b5;
+    cursor: pointer;
+}
+.categoryPlace {
+    position: absolute;
+    left: -30px;
+}
+.active {
+    color: #2270b5;
+}

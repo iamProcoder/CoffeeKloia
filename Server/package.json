@@ -1,0 +1,31 @@
+{
+  "name": "coffee-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "import": "node jsonDb-generator --import",
+    "delete": "node jsonDb-generator --delete",
+    "test": "mocha --timeout 10000 --exit --recursive"
+  },
+  "keywords": [
+    "Kloia",
+    "Coffee",
+    "rest",
+    "api"
+  ],
+  "author": "Faruk Mintaş",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mocha": "^8.3.2",
+    "mongoose": "^5.12.5",
+    "nodemon": "^2.0.7"
+  }
+}
